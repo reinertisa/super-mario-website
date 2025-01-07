@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML Forms</h1>
+    <form>
+        <label for="username">Enter username:</label>
+        <input type="text" id="username" name="username" />
+        <br>
+
+        <label for="email">Enter email:</label>
+        <input type="email" id="email" name="email" />
+        <br>
+
+        <label for="password">Enter password:</label>
+        <input type="password" id="password" name="password" />
+        <br>
+
+        <label>Select your age
+            <input type="radio" value="0-25" name="age" />
+            <input type="radio" value="26-50" name="age" />
+            <input type="radio" value="51+" name="age" />
+        </label>
+        <br>
+
+        <label for="question">Security question</label>
+        <select id="question" name="question">
+            <option value="q1">What is your favorite animal name?</option>
+            <option value="q2">What is your favorite car brand?</option>
+            <option value="q3">What is your favorite programming language?</option>
+        </select>
+        <br>
+
+        <label for="bio">Your bio:</label>
+        <textarea id="bio" name="bio" cols="30" rows="10" placeholder="about your..."></textarea>
+        <br>
+
+        <input type="submit" />
+    </form>
+</body>
+</html>
