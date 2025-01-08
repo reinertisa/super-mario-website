@@ -1,0 +1,39 @@
+     p.error {
+         color: red;
+     }
+
+     div.error {
+         color: lightblue;
+     }
+
+     p.success.feedback {
+         color: green;
+     }
+
+     p.feedback {
+         color: orange;
+         border: 1px dashed black;
+     }
+
+     #content {
+         background-color: #ebebeb;
+         padding: 20px;
+     }
+
+     a[href*="https://www.fanatik"] {
+         background-color: #3dd13d;
+         color: white;
+         text-decoration: none;
+         font-weight: bold;
+         text-transform: uppercase;
+     }
+
+     div .error {
+         color: red;
+     }
+
+     a[href$=".com"] {
+         color: white;
+         background: red;
+         border: 2px solid blue;
+     }
